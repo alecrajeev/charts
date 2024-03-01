@@ -4076,6 +4076,10 @@ receive:
   ## ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
   tolerations: []
+  ## @param receive.statefulsetName Thanos Receive statefulset name
+  ## ref: https://kubernetes.io/docs/tutorials/stateful-application/basic-stateful-set/#pods-in-a-statefulset
+  ##
+  statefulsetName: ""
   ## @param receive.statefulsetLabels Thanos Receive statefulset labels
   ## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
   ##
