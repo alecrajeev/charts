@@ -4099,6 +4099,10 @@ receive:
   ## ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   ##
   tolerations: []
+  ## @param receive.overrideStatefulsetName Thanos Receive statefulset name
+  ## ref: https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#pod-name-label
+  ##
+  overrideStatefulsetName: ""
   ## @param receive.statefulsetLabels Thanos Receive statefulset labels
   ## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
   ##
